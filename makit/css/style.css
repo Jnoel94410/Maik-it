@@ -1,0 +1,237 @@
+@font-face {
+    font-family: "Ma Super Fonte";
+    src: url('../fonts/arlrdbd.ttf');
+}
+
+body {
+	background-color: #ffff;
+	max-width: 100%;
+	font-family: "Ma Super Fonte"; 
+}
+
+header {
+
+}
+
+.social_top {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+}
+
+.social_top a {
+	margin-right: 8px;
+}
+
+#right {
+	margin-right: 15%;
+}
+
+.social_top img {
+	width: 41px;
+	height: 41px;
+}
+
+.header_makit {
+	width: 100%;
+	height: 500px;
+	background-color: #40ccff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#developpons {
+	color: white;
+	font-weight: bolder;
+	font-size: 80px;
+}
+
+.header_makit img {
+	width: 180px;
+	height: 180px;
+	position: relative;bottom: 80px;
+}
+
+.section1 {
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section1_container {
+	width: 80%;
+	height: 500px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+
+#size {
+	width: 221px;
+	height: 300px;
+	text-align: center;
+	font-weight: bolder;
+}
+
+#size img {
+	width: 204px;
+	height: 204px;
+}
+
+.section2 {
+	width: 100%;
+	height: 650px;
+	background-color: #40ccff;
+	display: flex;
+	justify-content: center;
+}
+
+.section2 h2 {
+	color: white;
+	font-size: 60px;
+	font-weight: bolder;
+}
+
+.section3 {
+	width: 100%;
+	height: 650px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.section3 h2 {
+	color: #40ccff;
+	font-size: 60px;
+	font-weight: bolder;
+	height: 60px;
+	width: 80%;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.section3_container {
+	width: 80%;
+	height: 400px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.socialhover_claire {
+	width: 300px;
+	height: 350px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0px;
+}
+
+.socialhover_franck {
+	width: 300px;
+	height: 350px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0px;
+}
+
+.socialhover_franck p {
+	margin: 0px;
+}
+
+.socialhover_claire p {
+	margin: 0px;
+}
+
+.section3_claire {
+	width: 200px;
+	height: 200px;
+	background: url(../images/Claire.jpg);
+	background-size: 100%;
+	border-radius: 50%;
+}
+
+.section3_franck {
+	width: 200px;
+	height: 200px;
+	background: url(../images/franck.jpg) no-repeat;
+	border-radius: 50%;
+	margin: 0px;
+}
+
+#socialhover_textclaire {
+	visibility: hidden;
+}
+
+#socialhover_textclaire {
+	visibility: visible;
+}
+
+.opacity:hover {
+	background-color: rgba(64,204,255,0.7);
+	background-blend-mode: overlay;
+	transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-in;
+
+}
+
+#section3_photos {
+	
+}
+
+footer {
+	background-color: #40ccff;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+.footer_container {
+	width: 80%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.copyright_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 160px;
+	height: 100px;
+	color: white;
+}
+
+.social_footer {
+
+	width: 180px; 
+}
+
+.social_footer img {
+	width: 50px;
+	height: 50px;
+	margin-right: 5px;
+}
+
+#copyright {
+	color: white;
+}
+
+.footer_container a {
+	width: 150px;
+	color: white;
+	text-decoration: none;
+}
