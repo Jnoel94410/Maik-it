@@ -134,6 +134,7 @@ header {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+	align-items: center;
 	margin: 0px;
 }
 
@@ -143,23 +144,35 @@ header {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+	align-items: center;
 	margin: 0px;
 }
 
 .socialhover_franck p {
 	margin: 0px;
+	color: #40ccff;
 }
 
 .socialhover_claire p {
 	margin: 0px;
+	color: #40ccff;
 }
 
 .section3_claire {
 	width: 200px;
 	height: 200px;
-	background: url(../images/Claire.jpg);
+	background: url(../images/Claire.jpg) no-repeat;
 	background-size: 100%;
 	border-radius: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.section3_claire img {
+	width: 25px;
+	height: 25px;
+	margin-top: 100px;
 }
 
 .section3_franck {
@@ -167,15 +180,37 @@ header {
 	height: 200px;
 	background: url(../images/franck.jpg) no-repeat;
 	border-radius: 50%;
+	background-size: 100%;
 	margin: 0px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
-#socialhover_textclaire {
-	visibility: hidden;
+.section3_franck img {
+	margin-top: 100px;
+	width: 25px;
+	height: 25px;
 }
 
-#socialhover_textclaire {
+.section3_franck:hover + .socialhover_textfranck {
 	visibility: visible;
+}
+
+.section3_claire:hover + .socialhover_textclaire {
+	visibility: visible;
+}
+
+.socialhover_textclaire {
+	visibility: hidden;
+	color: #40ccff;
+	text-align: center;
+}
+
+.socialhover_textfranck {
+	visibility: hidden;
+	color: #40ccff;
+	text-align: center;
 }
 
 .opacity:hover {
@@ -183,8 +218,26 @@ header {
 	background-blend-mode: overlay;
 	transition: all 0.5s ease-out;
 	-webkit-transition: all 0.5s ease-in;
-
 }
+
+.logo_opacity {
+	visibility: hidden;
+}
+
+.section3_franck:hover>.logo_opacity {
+	visibility: visible;
+	background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
 
 #section3_photos {
 	
