@@ -107,6 +107,7 @@ header {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	flex-wrap: wrap;
 }
 
 .section3 h2 {
@@ -157,6 +158,20 @@ header {
 	margin: 0px;
 	color: #40ccff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .section3_claire {
 	width: 200px;
@@ -220,15 +235,6 @@ header {
 	-webkit-transition: all 0.5s ease-in;
 }
 
-.logo_opacity {
-	visibility: hidden;
-}
-
-.section3_franck:hover>.logo_opacity {
-	visibility: visible;
-	background-color: red;
-}
-
 
 
 
@@ -287,4 +293,31 @@ footer {
 	width: 150px;
 	color: white;
 	text-decoration: none;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1024px)
+{
+	.socialhover_textclaire {
+		visibility: visible;
+	}
+
+	.socialhover_textfranck {
+		visibility: visible;
+	}
+}
+
+@media screen and (min-width: 768) and (max-width: 1023)
+{
+	body {
+
+	}
+
+	#developpons {
+		font-size: 30px;
+	}
 }
