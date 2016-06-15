@@ -309,6 +309,14 @@ footer {
 	.socialhover_textfranck {
 		visibility: visible;
 	}
+
+	.logo_franck {
+		visibility: visible;
+	}
+
+	.logo_claire {
+		visibility: visible;
+	}
 }
 
 @media screen and (min-width: 768) and (max-width: 1023)

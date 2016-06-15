@@ -9,6 +9,10 @@ $('.logo_claire').hide();
 				$('.logo_claire').fadeOut();
 		});
 
+if ($(window).width() <= 1024) {
+        $(".logo_claire").show();
+    	};
+
 $('.logo_franck').hide();
 
 		$('.socialhover_franck').hover(
@@ -17,15 +21,7 @@ $('.logo_franck').hide();
 			}, function () {
 				$('.logo_franck').fadeOut();
 		});
-$(window).resize(function() {
-   if ($(this).width() > 1000) {
-      $('.logo_claire').show();
-   }
-});
-
-$(window).resize(function() {
-   if ($(this).width() > 1000) {
-      $('.logo_franck').show();
-   }
-});
-});// document ready
+if ($(window).width() <= 1024) {
+        $(".logo_franck").show();
+    	};
+	});
