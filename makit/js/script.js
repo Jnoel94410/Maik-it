@@ -17,5 +17,15 @@ $('.logo_franck').hide();
 			}, function () {
 				$('.logo_franck').fadeOut();
 		});
+$(window).resize(function() {
+   if ($(this).width() > 1000) {
+      $('.logo_claire').show();
+   }
+});
 
+$(window).resize(function() {
+   if ($(this).width() > 1000) {
+      $('.logo_franck').show();
+   }
+});
 });// document ready
